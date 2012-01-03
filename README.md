@@ -19,7 +19,8 @@ global variables (unscoped by var) and also avoids constructs like x = x +1
 How to use
 ----------
 
-This is just my shared notes, so maybe not ready for prime time (see plans and fantasies below)
+This are just my shared notes, so maybe not ready for use by others (see plans and fantasies below),
+but just in case...
 
 To use this to teach you need to:
 (I'm assuming you know how to program (and use git, github, etc) yourself)

@@ -1,0 +1,39 @@
+#wrap {
+	position: absolute;
+	width: 960px;
+}
+#the-canvas{
+	border: 1px dotted black;
+}
+
+/* My Comment */
+
+div#info.fields {
+	position: absolute;
+	width: 146px;
+	right: 0;
+	top: 0;
+	margin-left: 10px;
+	border: 1px dotted #ddd;
+}
+div#info.fields p {
+	font-family: "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	font-size: 1em;
+	line-height: 1.5em;	
+}
+div#info.fields .label {
+	position: relative;
+	display: inline-block;
+	width:  50px;		
+	margin: 0 10px;
+	font-size: 0.75em;
+	text-align: right;
+}
+div#info.fields .value {
+	position: relative;
+	right: 0;
+	display: inline-block;
+	border: 1px solid silver;
+	width:  70px;
+	text-align: center;
+}

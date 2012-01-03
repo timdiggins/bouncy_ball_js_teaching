@@ -1,0 +1,40 @@
+// a line which starts with // is a comment (ignored by javascript).
+// a good start is to add a // to one of the lines in eachFrame - and reload and see what happens. 
+
+// this defines how many "frames" (see eachFram below) you want a second
+frameRate = 5; 
+// this mean 5 'frames' per second
+
+function start(){
+    // this function runs whenever you press 'reload' or 'restart'
+    
+    // the following line assigns 20 to the variable 'x'
+    x = 20;
+    // 'assigns' means, in this case: 
+    //    javascript puts the value 20 into a box labelled 'x'
+    //    that box can be retrieved in code by that label 'x'
+     
+    // the following line assigns 20 to the variable 'x'
+    y = 20;
+    
+    ball_colour = "black";
+    
+    // some things you may want later
+    x_direction = 1;
+    y_direction = 1;
+    speed = 3;
+}
+
+function eachFrame(){
+    // this function runs whenever you press 'reload' or 'restart'
+    
+    x = x + 1;
+    
+    if (x>400) {
+        ball_colour = "red";
+    } else {
+        ball_colour = "blue";
+    }
+    
+    drawBall(x, y, ball_colour);
+}

@@ -1,0 +1,4 @@
+*.class
+*.pyc
+*.pyo
+each_frame.js

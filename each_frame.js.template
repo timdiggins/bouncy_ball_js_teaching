@@ -6,9 +6,12 @@ frameRate = 5;
 // this mean 5 'frames' per second
 
 function start(){
-    // this function runs whenever you press 'reload' or 'restart'
+    // THIS FUNCTION (start) runs whenever you press 'reload' or 'restart'
+    // it is for putting initial values to various variables 
+    // that you can then  use in eachFrame below
     
-    // the following line assigns 20 to the variable 'x'
+    
+    // the following line assigns 20 to the variable 'x' 
     x = 20;
     // 'assigns' means, in this case: 
     //    javascript puts the value 20 into a box labelled 'x'
@@ -26,9 +29,11 @@ function start(){
 }
 
 function eachFrame(){
-    // this function runs whenever you press 'reload' or 'restart'
+    // THIS FUNCTION (eachFrame) runs every frame
     
-    x = x + 1;
+    amount_to_move = 1;
+    new_x = x + amount_to_move;
+    x = new_x;
     
     if (x>400) {
         ball_colour = "red";

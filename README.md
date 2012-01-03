@@ -48,5 +48,6 @@ Plans and fantasies
 * add textareas to edit them
 * add a grid on the canvas
 * label the axes
-* box to type in the code with no save and reload 
+* boxes (for start and eachFrame) to type in the code with no save and reload
+* analyze start for variables and inject into html
 * saves to web app maybe 

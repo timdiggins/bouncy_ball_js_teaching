@@ -11,7 +11,7 @@ function drawBall(xBall, yBall, fillStyle) {
     ctx.beginPath();  
 
     ctx.arc(xBall, yBall, radius, 0, 7);  
-    ctx.fillStyle = style;
+    ctx.fillStyle = fillStyle;
     ctx.fill();  
     //ctx.stroke();    
 }
